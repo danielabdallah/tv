@@ -20,3 +20,12 @@ body {
   margin-top: 15px;
   margin-bottom: 15px;
 }
+
+@media (width <= 500px) {
+  #images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
